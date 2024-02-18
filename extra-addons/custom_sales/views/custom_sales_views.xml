@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="custom_view_sale_order_form" model="ir.ui.view">
+        <field name="name">custom.sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="remove_zero_quantity_lines" string="Clean empty lines" type="object" class="oe_highlight" help="Remove Lines with Zero Quantity"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

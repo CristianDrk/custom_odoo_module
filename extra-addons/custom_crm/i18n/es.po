@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* custom_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-18 12:30+0000\n"
+"PO-Revision-Date: 2024-02-18 13:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: custom_crm
+#: selection:crm.lead,source:0
+msgid "Internet Search"
+msgstr "Búsqueda en Internet"
+
+#. module: custom_crm
+#: model:ir.model,name:custom_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr ""
+
+#. module: custom_crm
+#: selection:crm.lead,source:0
+msgid "Social media"
+msgstr "Redes sociales"
+
+#. module: custom_crm
+#: model:ir.model.fields,field_description:custom_crm.field_crm_lead__source
+msgid "Source"
+msgstr ""
+
+#. module: custom_crm
+#: selection:crm.lead,source:0
+msgid "Third party"
+msgstr "Terceros"
